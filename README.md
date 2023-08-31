@@ -2,8 +2,13 @@
 Simple REST Api using [express](https://expressjs.com/), [mongodb](https://www.mongodb.com/) and [redis](https://redis.io/).
 > Support Node >= 18
 
-## Wiki / Documentation
-### Authentication
+## Installation
+- clone this repo
+- run `npm install` to install dependencies
+- copy `.env.example` file into `.env` file and provide the value with your setup
+- run `npm run dev` to run the server
+
+## Authentication
 ```
 POST /oauth/register
 
@@ -46,7 +51,7 @@ response:
   Body: {"message":"error message","errors":["error message"]}
 ```
 
-### Endpoints
+## Endpoints
 ```
 GET /ping
 
