@@ -6,7 +6,7 @@ Simple REST Api using [express](https://expressjs.com/), [mongodb](https://www.m
 - clone this repo
 - run `npm install` to install dependencies
 - copy `.env.example` file into `.env` file and provide the value with your setup
-- run `npm run dev` to run the server
+- run `npm start` to run the server
 
 ## Authentication
 ```
