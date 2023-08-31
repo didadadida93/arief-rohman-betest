@@ -1,0 +1,15 @@
+{
+  "name": "arief-rohman-betest",
+  "version": "0.0.1",
+  "description": "Back-end test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arief Rohman <didadadida93@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
